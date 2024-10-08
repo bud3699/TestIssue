@@ -9,6 +9,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+        If you struggle finding windows edition and version, Go to settings -> system -> about. Under windows specifications.
   - type: dropdown
     id: OS
     attributes:
