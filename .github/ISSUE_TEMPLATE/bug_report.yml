@@ -46,7 +46,7 @@ body:
       label: Describe the bug
       description: Free text description.
       placeholder: Tell us what you see!
-      value: "A clear and concise description of what the bug."
+      value: "A clear and concise description of what the bug is."
     validations:
       required: true 
   - type: textarea
@@ -70,8 +70,8 @@ body:
   - type: textarea
     id: log-file
     attributes:
-      label: Log File
-      description: Please attach the log file to help us diagnose the issue. You can drag and drop the file here or click to upload.
+      label: Log File (Beta Only)
+      description: Please attach the log file to help us diagnose the issue. You can drag and drop the file here or click to upload. The log can be retrieved by enabling the log file in the xml then restarting the driver.
       placeholder: Drag and drop the log file here or click to upload.
     validations:
       required: false
