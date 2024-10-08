@@ -49,7 +49,8 @@ body:
     attributes:
       label: Describe the bug
       description: Free text description.
-      placeholder: Tell us what you see!
+      placeholder: |
+        Tell us what you see!
         A clear and concise description of what the bug is.
     validations:
       required: true 
@@ -60,17 +61,16 @@ body:
       description: And if you can how to reproduce 
       placeholder: |
         Tell us how to reproduce!
-        Go to '...', 
-        2. Click on '....', and so on.
+        Go to '...', 2. Click on '....', and so on.
     validations:
       required: false 
-
   - type: textarea
     id: expected-info
     attributes:
       label: Expected behavior
       description: Please inform us about expected behavior.
-      placeholder: Description of behavior!
+      placeholder: |
+        Description of behavior!
         When i Clicked...
     validations:
       required: false 
