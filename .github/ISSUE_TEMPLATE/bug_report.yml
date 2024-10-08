@@ -58,8 +58,7 @@ body:
     attributes:
       label: Steps to reproduce
       description: And if you can how to reproduce 
-      placeholder: Tell us how to reproduce!
-        Go to '...', 2. Click on '....', and so on.
+      placeholder: Tell us how to reproduce!\nGo to '...', 2. Click on '....', and so on.
     validations:
       required: false 
   - type: textarea
