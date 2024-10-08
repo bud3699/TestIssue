@@ -9,7 +9,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-        If you struggle finding windows edition and version, Go to settings -> system -> about. Under windows specifications.
   - type: dropdown
     id: OS
     attributes:
@@ -41,6 +40,10 @@ body:
       default: 0
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        If you struggle finding windows edition and version, Go to settings -> system -> about. Under windows specifications.
   - type: textarea
     id: bug-info
     attributes:
