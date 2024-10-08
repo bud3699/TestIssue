@@ -50,7 +50,7 @@ body:
       label: Describe the bug
       description: Free text description.
       placeholder: Tell us what you see!
-      value: "A clear and concise description of what the bug is."
+        A clear and concise description of what the bug is.
     validations:
       required: true 
   - type: textarea
@@ -59,7 +59,7 @@ body:
       label: Steps to reproduce
       description: And if you can how to reproduce 
       placeholder: Tell us how to reproduce!
-      value: "1. Go to '...', 2. Click on '....', and so on."
+        Go to '...', 2. Click on '....', and so on.
     validations:
       required: false 
   - type: textarea
@@ -68,7 +68,7 @@ body:
       label: Expected behavior
       description: Please inform us about expected behavior.
       placeholder: Description of behavior!
-      value: "When i Clicked..."
+        When i Clicked...
     validations:
       required: false 
   - type: textarea
