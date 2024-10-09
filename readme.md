@@ -2,3 +2,4 @@
 ```diff
 ! Warning: download the correct version
 ```
+$${\color{red}Red}$$
