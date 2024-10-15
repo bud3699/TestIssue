@@ -9,3 +9,5 @@ $${\color{red}Red}$$
 
 > [!IMPORTANT]
 > Please make sure you download the correct version!
+
+**[zjoasan](https://github.com/zjoasan)** and **[Bud](https://github.com/bud3699)**
