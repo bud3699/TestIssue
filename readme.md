@@ -39,3 +39,13 @@ $${\color{red}Red}$$
 7. You are done! Go to display settings to customize the resolution of the additional displays. These displays show up in Sunshine, your Oculus or VR settings, and should be able to be streamed from.
 8. You can enable/disable the display adapter to toggle the monitors.
 
+
+| Project | Iddcx Ver | Signed | SDR          | HDR          | H-Cursor | Tweakable | ARM64 | Custom EDID | Float Refresh |
+|---------|-----------|--------|--------------|--------------|----------|-----------|-------|-------------|---------------|
+| [Virtual Display Driver](https://github.com/VirtualDisplay/Virtual-Display-Driver) | 1.10 (latest) | ✅    | ✅ (8/10bit) | ✅ (8/10/12bit) | ✅      | ✅         | ✅    | ✅           | ✅             |
+| usbmmidd_v2 | -         | ✅    | ✅ (8bit)    | -            | -        | -         | -     | -           | -             |
+| [virtual-display-rs](https://github.com/MolotovCherry/virtual-display-rs/issues/81) | 1.5       | -      | ✅ (8bit)    | -            | [#81](https://github.com/MolotovCherry/virtual-display-rs/issues/81) | ✅         | -     | -           | -             |
+| parsec-vdd | 1.5       | ✅    | ✅ (8bit)    | -            | ✅        | 🆗         | -     | -           | -             |
+| IddSampleDriver | 1.2       | -      | ✅ (8bit)    | -            | -        | -         | -     | -           | -             |
+| RustDeskIddDriver | 1.2       | -      | ✅ (8bit)    | -            | -        | -         | -     | -           | -             |
+
