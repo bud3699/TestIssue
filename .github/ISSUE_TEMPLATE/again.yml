@@ -73,7 +73,7 @@ body:
   - type: textarea
     id: issue-info
     attributes:
-      label: What issue are you experiencing?
+      label: What issue are you experiencing or what do you need help with?
       description: Describe the issue you need help with.
       placeholder: |
         Provide a clear and concise description of the help you need.
