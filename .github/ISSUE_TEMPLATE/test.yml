@@ -55,7 +55,7 @@ body:
       description: What driver version are you using?
       placeholder: Enter driver version here.
     validations:
-      required: false
+      required: true
   
   - type: textarea
     id: device-specs
