@@ -55,18 +55,18 @@ body:
       description: What driver version are you using?
       placeholder: Enter driver version here.
     validations:
-      required: false
+      required: true
   
   - type: textarea
     id: device-specs
     attributes:
       label: Device Specifications
-      description: Provide details about your hardware.
+      description: Provide details about your hardware. This is to help us indentify whether its a potential hardware incompatibility. This isnt needed but helps.
       placeholder: |
-        CPU: Intel i7-12700K
-        GPU: NVIDIA RTX 3080
-        RAM: 32GB DDR5
-        Storage: 1TB NVMe SSD
+        CPU: Example CPU
+        GPU: Example GPU
+        RAM: Example Ram
+        MOBO: Example Motherboard
     validations:
       required: false
   
@@ -76,7 +76,7 @@ body:
       label: What issue are you experiencing?
       description: Describe the issue you need help with.
       placeholder: |
-        Provide a clear and concise description of the issue.
+        Provide a clear and concise description of the help you need.
     validations:
       required: true 
   
@@ -86,7 +86,7 @@ body:
       label: Troubleshooting steps taken
       description: What have you tried so far to fix the issue?
       placeholder: |
-        List steps you've taken to resolve the problem.
+        List steps you've taken to resolve/assist the problem.
     validations:
       required: false 
   
@@ -94,9 +94,9 @@ body:
     id: expected-outcome
     attributes:
       label: Expected outcome
-      description: What were you expecting to happen?
+      description: What were you expecting/want to happen?
       placeholder: |
-        Describe the behavior you expected.
+        Describe the behavior you expected/want.
     validations:
       required: false 
   
