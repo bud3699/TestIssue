@@ -61,12 +61,12 @@ body:
     id: device-specs
     attributes:
       label: Device Specifications
-      description: Provide details about your hardware.
+      description: Provide details about your hardware. This is to help us indentify whether its a potential hardware issue.
       placeholder: |
-        CPU: Intel i7-12700K
-        GPU: NVIDIA RTX 3080
-        RAM: 32GB DDR5
-        Storage: 1TB NVMe SSD
+        CPU: Example CPU
+        GPU: Example GPU
+        RAM: Example Ram
+        MOBO: Example Motherboard
     validations:
       required: false
   
